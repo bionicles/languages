@@ -2,10 +2,11 @@
 
 ## A python function to load word, character lists for a bunch of languages
 
+
 ## Install
 
 ```
-git clone https://github.com/bionicles/languages && cd languages
+git clone https://github.com/bionicles/languages && cd languages && unzip language.zip
 ```
 
 ## Use
@@ -76,19 +77,21 @@ lat, latin
 I'm keeping this intentionally simple as **** for now, but I welcome forks, pull requests, comments. 
 
 ## Ideas:
--We could add a script to regenerate the json (I literally hacked this out in the Python REPL) 
+-We could add code to regenerate the json (I hacked this in the Python REPL) 
 -we could add functions to merge the languages into a mecha-list. 
 -we could improve the deduplication
--we could define the words (perhaps another dictionary)
--we could add emoji 
+-we could define the words
+-we could add emoji
+-json might be too annoying and we could switch to csv
+-we could add this to NLTK
 
 You might need to install fonts and change the font in your terminal to get this to display properly. 
 
-FWIW, most everything prints OK on my rig now (june 2020), and i'm using
-in settings.json for VS Code:
+FWIW, most everything prints OK on my rig now (june 2020), here 
+are my fonts in VS Code:
 ```
-    "editor.fontFamily": "'Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
-    "terminal.integrated.fontFamily": "'unifont','Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
+"editor.fontFamily": "'Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
+"terminal.integrated.fontFamily": "'unifont','Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
 ```
 
 ## License / Sources
@@ -103,21 +106,21 @@ Russian came from [YARN - Yet Another RussNet](https://russianword.net/en/)
 
 YARN: Spinning-in-Progress / P. Braslavski, D. Ustalov, M. Mukhin, Y. Kiselev // Proceedings of the Eight Global Wordnet Conference. — Bucharest, Romania, 2016 — P. 58–65 (PDF)
 
-Latin is from William Whitaker
+Latin is from [William Whitaker](https://en.wikipedia.org/wiki/William_Whitaker%27s_Words)
 
-Urdu is from the UrduHack team on github
+Urdu is from the [UrduHack](https://github.com/urduhack) team on github
 
-Irish is from Michal Boleslav Měchura
+Irish is from [Michal Boleslav Měchura](http://www.lexiconista.com/)
 
-Swahili is from Elastic's hunspell
+Swahili is from [Elastic's hunspell](https://github.com/elastic/hunspell)
 
-Korean is from Jiseong Kim at KAIST
+Korean is from [Jiseong Kim at KAIST](http://wordnet.kaist.ac.kr/wordnet/contents_en.php)
 
-Pashto came from Mohammad Badar Hashimi
+Pashto came from [Mohammad Badar Hashimi](https://github.com/mohbadar)
 
-Bengali is from Minhas Kamal
+Bengali is from [Minhas Kamal](https://github.com/MinhasKamal)
 
-Hindi came from Aleksander Eskilson
+Hindi came from [Aleksander Eskilson](https://github.com/bdrillard)
 
 most of the dataset came from [Open Multilingual Wordnet](http://compling.hss.ntu.edu.sg/omw/) 
 
@@ -201,4 +204,3 @@ TempoWordNet for Sentence Time Tagging. Proceedings of the Companion Publication
 tha Thoongsup S., Charoenporn T., Robkop K., Sinthurahat T., Mokarat C., Sornlertlamvanich V., Isahara H. (2009)
 Thai Wordnet Construction Proceedings of The 7th Workshop on Asian Language Resources (ALR7), Joint conference of the 47th Annual Meeting of the Association for Computational Linguistics (ACL) and the 4th International Joint Conference on Natural Language Processing (IJCNLP) Suntec, Singapore
 Language codes linked to Lewis, M. Paul (ed.), 2009. Ethnologue: Languages of the World, Sixteenth edition. Dallas, Tex.: SIL International. Online version: http://www.ethnologue.com/
-
