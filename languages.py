@@ -13,4 +13,5 @@ def load_languages(filepath=FILEPATH):
 
 if __name__ == "__main__":
     languages = load_languages()
-    print(languages)
+    for l in languages.keys():
+        print(languages[l])

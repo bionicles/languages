@@ -6,7 +6,16 @@
 ## Install
 
 ```
-git clone https://github.com/bionicles/languages && cd languages && unzip language.zip
+git clone https://github.com/bionicles/languages && cd languages && unzip languages.zip && python languages.py
+```
+
+You may need to install fonts and change the font in your terminal to get this to display properly. 
+
+FWIW, most everything prints OK on my rig now (june 2020), here 
+are my fonts in VS Code:
+```
+"editor.fontFamily": "'Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
+"terminal.integrated.fontFamily": "'unifont','Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
 ```
 
 ## Use
@@ -24,14 +33,8 @@ languages = load_languages()
 # languages is a python dict
 ```
 
-## Layout
-
-'languages' is a dictionary of language dictionaries; each language dictionary has 'words' and 'chars'
-
-The keys are [ISO-639 3-letter language codes](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Languages/List_of_ISO_639-3_language_codes_(2019))
-
-
 ## Languages
+
 eng, english
 fra, french
 cmn, mandarin chinese
@@ -72,6 +75,14 @@ urd, urdu
 pus, pashto / pushto
 lat, latin
 
+
+## Layout
+
+'languages' is a dictionary of language dictionaries; each language dictionary has 'words' and 'chars'
+
+The keys are [ISO-639 3-letter language codes](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Languages/List_of_ISO_639-3_language_codes_(2019))
+
+
 ## Contribute
 
 I'm keeping this intentionally simple as **** for now, but I welcome forks, pull requests, comments. 
@@ -85,14 +96,6 @@ I'm keeping this intentionally simple as **** for now, but I welcome forks, pull
 -json might be too annoying and we could switch to csv
 -we could add this to NLTK
 
-You might need to install fonts and change the font in your terminal to get this to display properly. 
-
-FWIW, most everything prints OK on my rig now (june 2020), here 
-are my fonts in VS Code:
-```
-"editor.fontFamily": "'Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
-"terminal.integrated.fontFamily": "'unifont','Noto Mono', 'Noto Color Emoji', 'NotoSansCJK-Regular'",
-```
 
 ## License / Sources
 
