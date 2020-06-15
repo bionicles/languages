@@ -35,45 +35,45 @@ languages = load_languages()
 
 ## Languages
 
-eng, english
-fra, french
-cmn, mandarin chinese
-rus, russian
-spa, spanish
-arb, arabic
-ell, greek
-deu, german
-als, albanian
-bul, bulgarian
-cat, catalan
-dan, danish
-eus, basque
-fas, farsi / persian
-fin, finnish
-glg, galician
-heb, hebrew
-hrv, croatian
-ind, indonesian
-ita, italian
-jpn, japanese
-nld, dutch
-nno, norwegian nynorsk
-nob, nowregian bokmal
-pol, polish
-por, portuguese
-qcn, chinese wordnet
-slv, slovenian
-swe, swedish
-tha, thai
-zsm, malay
-kor, korean
-hin, hindi
-ben, bengali
-swa, swahili
-gle, irish
-urd, urdu
-pus, pashto / pushto
-lat, latin
+1. eng, english
+1. fra, french
+1. cmn, mandarin chinese
+1. rus, russian
+1. spa, spanish
+1. arb, arabic
+1. ell, greek
+1. deu, german
+1. als, albanian
+1. bul, bulgarian
+1. cat, catalan
+1. dan, danish
+1. eus, basque
+1. fas, farsi / persian
+1. fin, finnish
+1. glg, galician
+1. heb, hebrew
+1. hrv, croatian
+1. ind, indonesian
+1. ita, italian
+1. jpn, japanese
+1. nld, dutch
+1. nno, norwegian nynorsk
+1. nob, nowregian bokmal
+1. pol, polish
+1. por, portuguese
+1. qcn, chinese wordnet
+1. slv, slovenian
+1. swe, swedish
+1. tha, thai
+1. zsm, malay
+1. kor, korean
+1. hin, hindi
+1. ben, bengali
+1. swa, swahili
+1. gle, irish
+1. urd, urdu
+1. pus, pashto / pushto
+1. lat, latin
 
 
 ## Layout
