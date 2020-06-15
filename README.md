@@ -25,6 +25,7 @@ print the languages:
 python languages.py 
 ```
 
+import them and use them for NLP or apps
 ```py
 from languages import load_languages
 
