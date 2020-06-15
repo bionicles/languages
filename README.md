@@ -30,42 +30,16 @@ from languages import load_languages
 
 languages = load_languages()
 
-# languages is a python dict
+# languages is a dict with [language]['words'] and [language]['chars']
+# language keys are ISO-639-3 three-letter codes
+
+swahili = languages['swa']
+russian_words = languages['rus']['words']
+chinese_chars = languages['cmn']['chars']
 ```
 
 ## Languages
 
-1. eng, english
-1. fra, french
-1. cmn, mandarin chinese
-1. rus, russian
-1. spa, spanish
-1. arb, arabic
-1. ell, greek
-1. deu, german
-1. als, albanian
-1. bul, bulgarian
-1. cat, catalan
-1. dan, danish
-1. eus, basque
-1. fas, farsi / persian
-1. fin, finnish
-1. glg, galician
-1. heb, hebrew
-1. hrv, croatian
-1. ind, indonesian
-1. ita, italian
-1. jpn, japanese
-1. nld, dutch
-1. nno, norwegian nynorsk
-1. nob, nowregian bokmal
-1. pol, polish
-1. por, portuguese
-1. qcn, chinese wordnet
-1. slv, slovenian
-1. swe, swedish
-1. tha, thai
-1. zsm, malay
 1. kor, korean
 1. hin, hindi
 1. ben, bengali
@@ -73,7 +47,38 @@ languages = load_languages()
 1. gle, irish
 1. urd, urdu
 1. pus, pashto / pushto
+1. fas, farsi / persian
+1. arb, arabic
 1. lat, latin
+1. fra, french
+1. cmn, mandarin chinese
+1. rus, russian
+1. spa, spanish
+1. ell, greek
+1. heb, hebrew
+1. deu, german
+1. als, albanian
+1. eng, english
+1. bul, bulgarian
+1. cat, catalan
+1. dan, danish
+1. eus, basque
+1. fin, finnish
+1. glg, galician
+1. hrv, croatian
+1. ind, indonesian
+1. ita, italian
+1. jpn, japanese
+1. nld, dutch
+1. nno, norwegian nynorsk
+1. nob, norwegian bokmal
+1. pol, polish
+1. por, portuguese
+1. qcn, chinese wordnet
+1. slv, slovenian
+1. swe, swedish
+1. tha, thai
+1. zsm, malay
 
 
 ## Layout
