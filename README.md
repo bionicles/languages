@@ -94,13 +94,13 @@ The keys are [ISO-639 3-letter language codes](https://en.wikipedia.org/wiki/Wik
 I'm keeping this intentionally simple as **** for now, but I welcome forks, pull requests, comments. 
 
 ## Ideas:
--We could add code to regenerate the json (I hacked this in the Python REPL) 
--we could add functions to merge the languages into a mecha-list. 
--we could improve the deduplication
--we could define the words
--we could add emoji
--json might be too annoying and we could switch to csv
--we could add this to NLTK
+- We could add code to regenerate the json (I hacked this in the Python REPL) 
+- we could add functions to merge the languages into a mecha-list. 
+- we could improve the deduplication
+- we could define the words
+- we could add emoji
+- json might be too annoying and we could switch to csv
+- we could add this to NLTK
 
 
 ## License / Sources
